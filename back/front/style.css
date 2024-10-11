@@ -1,19 +1,57 @@
 body {
-    background-color: rgb(225, 228, 231);
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-#titulo {
-    background-color: rgb(146, 221, 221);
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background: fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
+
 h1 {
-    padding: 5px;
+    background-color: rgb(195, 236, 236);
     margin: auto;
-    
+    text-align: center;
+    color: #333;
 }
 
-#cadastro {
-    width: 50px;
-    height: 50px;
-    border: 1px solid gray;
-    padding: 10px 20px;
+.cadastro {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+imput[type="email"]{
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: rgb(211, 142, 13);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #218838;
 }
