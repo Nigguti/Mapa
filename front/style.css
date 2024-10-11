@@ -22,21 +22,24 @@ h1 {
 }
 
 .cadastro {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #555;
 }
 
 input[type="text"],
-imput[type="email"]{
+input[type="email"],
+input[type="password"]
+{
     width: 100%;
     padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
 }
 
 button {
