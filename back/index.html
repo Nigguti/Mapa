@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,24 @@
 <body>
     <div id="titulo">
          <h1>Mapa</h1>
-     </div>
-    <div id="cadastro"></div>
-         <h2>Formulário de cadastro usuário</h2>
-         <p>Prencha seus dados para o cadastro de seu usuário</p>
+    <div class="container">
+         <form>
+            <div class="cadastro">
+                 <label for="login">Informe um login</label>
+                  <input type="text" id="login" name="login" required>
+             </div>
+             <div class="cadastro">
+                <label for="username">Informe uma senha</label>
+                 <input type="text" id="username" name="username" required>
+            </div>
+            <div class="cadastro">
+                <label for="email">Informe um email</label>
+                 <input type="text" id="email" name="email" required>
+            </div>
+            <div class="cadastro">
+                <button type="submit">Cadastrar</button>
+             </div>
+         </form>
      </div>
 </body>
 </html>
